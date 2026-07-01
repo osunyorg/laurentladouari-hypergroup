@@ -1,4 +1,8 @@
-theme: osuny
+theme:
+  - osuny
+  - osuny-plugin-centered-header
+  - osuny-plugin-centered-layout
+  - osuny-plugin-centered-footer
 _merge: deep
 params:
   summary:
@@ -6,8 +10,8 @@ params:
   search:
     active: true
   logo:
-    header: ''
-    footer: ''
+    header: '/assets/images/logo.svg'
+    footer: '/assets/images/logo-blanc.svg'
   home:
     head:
       title: site
